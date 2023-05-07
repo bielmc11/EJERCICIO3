@@ -1,3 +1,107 @@
 *{
     box-sizing: border-box;
 }
+
+
+/* CABECERA */
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0vw 10vw 0vw 10vw;
+}
+
+.header__tittle{
+    font-size: 22px;
+}
+
+.nav__list{
+    display: flex;
+    gap: 50px;
+
+}
+
+.nav__list li{
+    float: left;
+    list-style: none;
+    
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.separationOne{
+    border-color: rgb(149, 154, 166, 0.6);
+    margin-top: 0%;
+}
+
+#contactar{
+    border: 1px solid rgb(149, 154, 166, 0.6);
+    padding: 15px;
+    border-radius: 10px;
+}
+/* CUERPO PRINCIPAL */
+
+main{
+    margin: 0vw 10vw 0vw 10vw;
+}
+
+section.mainProduct{
+    border: 2px solid  black;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 400px;
+    margin-top: 40px;
+    gap:3%;
+}
+
+.mainProduct__picture{
+    position: relative;
+    background-color: #E5E7E9;
+    height: 100%;
+    width: 900px;
+}
+
+.pictureIfhone__green{
+    display: inline;
+    background-color: rgb(84, 215, 84);
+    font-size: 22px;
+    color: white;
+    font-weight: 700;
+    padding: 10px;
+    position: absolute;
+    top:15px;
+    left: 15px;
+}
+
+.mainProduct__textoIfhone{
+    
+
+}
+
+#oferta{
+    margin-top: 0%;
+    margin-bottom: 0%;
+    color: red;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.text__tittle{
+    margin-top: 1%;
+    font-size: 42px;
+}
+
+.text__one{
+    font-size: 22px;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+}
+.text__two{
+    font-size: 22px;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+}
