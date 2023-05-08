@@ -51,11 +51,11 @@ main{
 }
 
 section.mainProduct{
-    border: 2px solid  black;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    height: 400px;
+    height: 500px;
+    max-height: 700px;
     width: inherit;
     margin-top: 40px;
     gap:3%;
@@ -68,9 +68,8 @@ section.mainProduct{
     display: flex;
     align-items: center;
     height: 100%;
-    min-width: 350px;
-    width: 70%;
-    max-width: 100%;
+    min-width: 450px;
+    width: 90%;
 }
 
 .pictureIfhone__imagen{
@@ -91,6 +90,7 @@ section.mainProduct{
 }
 
 .mainProduct__text{
+    height: 100%;
     max-height: 100%;
 }
 
@@ -110,10 +110,12 @@ section.mainProduct{
 .text__one{
     font-size: 22px;
     font-family: Georgia, 'Times New Roman', Times, serif ;
+    max-height: 100%;
 }
 .text__two{
     font-size: 22px;
     font-family: Georgia, 'Times New Roman', Times, serif ;
+    max-height: 100%;
 }
 
 /*Estilo del precio y boton comrpar */
@@ -121,6 +123,7 @@ section.mainProduct{
     display: flex;
     align-items: center;
     gap:40px;
+    max-height: 100%;
 }
 
 .buyPrice__price{
@@ -140,4 +143,41 @@ section.mainProduct{
 
 .buyPrice__button:hover{
     background-color: rgb(40, 40, 90);
+}
+
+/*LABELS DEL PRODUCTO PRINCIPAL */ 
+.labels{
+    display: flex;
+    align-items: center;
+}
+
+.labels__label{
+    display: flex;
+    gap: 7%;
+    align-items: center;
+}
+
+.labels__label p{
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+}
+
+/* ACCESORIOS RECOMENDADOS */
+.suggestions h1{
+    font-size: 34px;
+    margin-top: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.suggestion__cards{
+    display: flex;
+    gap:30px;
+}
+
+.cards{
+    border:1px solid #A2A1A6;
+}
+
+.cards__img{
+    background-color: aquamarine;
 }
