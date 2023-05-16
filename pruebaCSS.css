@@ -1,8 +1,6 @@
 *{
     box-sizing: border-box;
     font-family: 'PT Sans', sans-serif;
-        /*font-family: 'Castoro Titling', cursive;
-    font-family: 'Roboto Slab', serif;*/
 } 
 
 body{
@@ -25,13 +23,11 @@ header{
 .nav__list{
     display: flex;
     gap: 50px;
-
 }
 
 .nav__list li{
     float: left;
-    list-style: none;
-    
+    list-style: none;  
 }
 
 a{
@@ -79,7 +75,7 @@ section.mainProduct{
 
 .pictureIfhone__imagen{
     width: 100%;
-    height: auto; /* 125% PONIA ANTES*/
+    height: auto; 
 }
 
 .pictureIfhone__green{
@@ -110,12 +106,9 @@ section.mainProduct{
 
 .text__one{
     font-size: 22px;
-    /*font-family: Georgia, 'Times New Roman', Times, serif ; */
-
 }
 .text__two{
     font-size: 22px;
-    /* font-family: Georgia, 'Times New Roman', Times, serif ; */
 }
 
 /*Estilo del precio y boton comrpar */
@@ -162,7 +155,6 @@ section.mainProduct{
 
 .labels__label p{
     font-size: 18px;
-    /* font-family: Georgia, 'Times New Roman', Times, serif ; */
 }
 
 
@@ -171,7 +163,6 @@ section.mainProduct{
 .suggestions h1{
     font-size: 34px;
     margin-top: 40px;
-   /*  font-family: Georgia, 'Times New Roman', Times, serif; */
 }
 
 .suggestion__cards{
@@ -190,11 +181,11 @@ section.mainProduct{
 }
 
 .cards__img{
-    width: 350px;/*250*/
-    max-width: 450px; /*250*/
-    min-width: 100px; /*100*/
+    width: 350px;
+    max-width: 450px; 
+    min-width: 100px; 
     align-self: center;
-    height: 300px; /*300*/
+    height: 300px; 
 }
 
 .cards__tittle{
@@ -205,6 +196,7 @@ section.mainProduct{
 .suggestion__cards .cards:nth-child(2) h2{
     margin-bottom: 10px;
 }
+
 .suggestion__cards .cards:nth-child(4) h2{
     margin-bottom: 10px;
 }
@@ -261,7 +253,6 @@ aside.form{
     margin-top: 0;
     font-size: 49px;
     width: auto;
-    /* font-family: Georgia, 'Times New Roman', Times, serif ; */
     letter-spacing: 2px;
     max-width: 100%;
 }
@@ -307,6 +298,7 @@ input[type="submit"]{
 input[type="submit"]:hover{
     background-color: rgb(40, 40, 90);
 }
+
 
 /* FOTTER */
 .footer__hr{
@@ -378,7 +370,6 @@ input[type="submit"]:hover{
         gap: 2%;
         max-width: 48%;
         align-items: flex-start;
-        border: 1px solid black;
     }
     
     .labels__label p{
